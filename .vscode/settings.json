@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "__functional_03": "cpp",
+        "__string": "cpp",
+        "functional": "cpp",
+        "string": "cpp",
+        "system_error": "cpp",
+        "vector": "cpp",
+        "iterator": "cpp",
+        "__bit_reference": "cpp",
+        "__hash_table": "cpp",
+        "__split_buffer": "cpp",
+        "array": "cpp",
+        "bitset": "cpp",
+        "initializer_list": "cpp",
+        "string_view": "cpp",
+        "unordered_map": "cpp"
+    }
+}
