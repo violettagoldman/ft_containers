@@ -2,6 +2,8 @@
 # define UTILS_HPP
 
 # include "VectorTest.hpp"
+# include "StackTest.hpp"
+# include "MapTest.hpp"
 
 # include <iostream>
 

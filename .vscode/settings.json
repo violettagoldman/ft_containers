@@ -69,6 +69,7 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "utility": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "memory_resource": "cpp"
     }
 }

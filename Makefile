@@ -19,7 +19,7 @@ TESTS = ${wildcard tests/**.cpp}
 TESTS += ${wildcard tests/*/*.cpp}
 
 $(NAME): $(CONTAINERS) $(TESTS)
-	@$(CC) $(FLAGS) $(TESTS) main.cpp -o $(NAME) -I./containers -I./tests -I./tests/Vector
+	@$(CC) $(FLAGS) $(TESTS) main.cpp -o $(NAME) -I./containers -I./tests -I./tests/Vector -I./tests/Stack -I./tests/Map
 	@echo "\033[32;1m$(NAME) by Violetta Goldman is done ${TICK}          "
 
 clean:
