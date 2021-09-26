@@ -1,6 +1,10 @@
 #ifndef UTILITIES_HPP
 # define UTILITIES_HPP
 
+# include <iostream>
+# include <memory>
+# include <limits>
+
 namespace ft
 {
 	template <typename T>
@@ -10,22 +14,16 @@ namespace ft
 		a = b;
 		b = tmp;
 	};
-	// template <class T>
-	// struct Node
-	// {
-	// 	T data;
-	// 	Node *prev;
-	// 	Node *next;
-	// };
-	// template <class Key, class T>
-	// struct BNode
-	// {
-	// 	std::pair<Key, T> pair;
-	// 	BNode *left;
-	// 	BNode *right;
-	// 	BNode *parent;
-	// 	bool end;
-	// };
+
+	template <class Key, class T>
+	struct	BiNode
+	{
+		std::pair<Key, T>	pair;
+		BiNode				*left;
+		BiNode				*right;
+		BiNode				*parent;
+		bool				end;
+	};
 };
 
 #endif

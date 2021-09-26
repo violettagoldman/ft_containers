@@ -1,10 +1,6 @@
 #ifndef VECTOR_HPP
 # define VECTOR_HPP
 
-# include <iostream>
-# include <memory>
-# include <limits>
-
 # include "Vector/ConstReverseVectorIterator.hpp"
 # include "Vector/ReverseVectorIterator.hpp"
 # include "Vector/ConstVectorIterator.hpp"
@@ -338,9 +334,9 @@ namespace ft
 			{
 				return (_alloc);
 			};
-	};
+		};
 
-				/*
+			/*
 				Operators
 			*/
 
